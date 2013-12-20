@@ -1,0 +1,44 @@
+BODY {
+  font-size: 12pt;
+  color: black;
+  background-color: #cceeff;
+  padding: 20px;}
+
+a:link {color: #00bbbb;}
+a:visited {color: #00bbbb;}
+a:active {color: lime;}
+
+a:link.external {color: #44aa44;}
+a:visited.external {color: #44aa44;}
+a:active.external {color: lime;}
+
+H1 {font-family: serif; color: #2266ff;}
+H2 {font-family: serif; color: #2266ff;}
+H3 {font-family: serif; color: #2266ff;}
+
+P {max-width: 100ex;}
+
+LI {margin: 16px 0px 16px 0px; max-width: 90ex;}
+
+PRE {color: #202080;}
+
+EM {color: #602020;}
+STRONG {color: #602020;}
+DFN {color: #602020;}
+VAR {color: #602020;}
+
+SAMP {color: #202080}
+TT {color: #202080;}
+CODE {color: #202080; white-space: pre;}
+
+rw {font-style: italic; color: #602020;}
+eqn {font-style: italic; color: 202080;}
+
+DIV.equation {font-style: italic; color: #202080; margin: 16px 0px 16px 0px;}
+DIV.equation EM {color: red;}
+
+SPAN.equation {font-style: italic; color: #202080;}
+SPAN.equation EM {color: red;}
+
+SPAN.program {font-family: monospace;}
+SPAN.rw {font-family: monospace; font-style: italic;}
